@@ -426,9 +426,6 @@
             width: 200px;
             margin-top: 10px;
         }
-        .home-page,.contact-page,.skill-page{
-            min-height:100vh;
-        }
 
     }
 
