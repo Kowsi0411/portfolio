@@ -72,10 +72,11 @@
         justify-content: space-around;
         align-items: center;
         /* flex-direction: column; */
-        min-height: 100vh;
+        height:calc(100vh);
         padding-top: 80px;
         /* text-align: center; */
-        background: linear-gradient(360deg, #d2d2f4, #eec8ee);
+        /* background: linear-gradient(360deg, #d2d2f4, #eec8ee); */
+        background-color: blanchedalmond;
     }
 
     /* Text Section */
@@ -125,9 +126,10 @@
 
     /* About Section */
     .contact-page {
-        min-height: 100vh;
+        min-height: auto;
         width: 100%;
-        background: linear-gradient(90deg, #d2d2f4, #eec8ee);
+        /* background: linear-gradient(90deg, #d2d2f4, #eec8ee); */
+        background-color: yellowgreen;
         padding: 40px 10px;
     }
 
@@ -178,7 +180,7 @@
         box-shadow: 0 0 5px 5px rgb(171, 171, 228) ;
     }
     .skill-page {
-        min-height: 100vh;
+        height: auto;
         width: 100%;
         background: linear-gradient(90deg, #d2d2f4, #eec8ee);
         /* background-color: red; */
@@ -241,21 +243,22 @@
 
 
     /* Responsive Design */
-    @media(max-width:2560px){
+    /* @media(max-width:2560px){
         .contact-page,.skill-page{
             min-height: 100vh;
             padding-top: 300px;
         }
 
 
-    }
+    } */
     @media (max-width: 1024px) {
         .home-page{
-            padding-top:-100px;
-            height: fit-content;
+            padding: 80px;
+            height:calc(100vh);
         }
         .contact-page,.skill-page{
-            height: fit-content;
+            height: auto;
+            padding: 50px;
         }
         .con-page{
             display: flex;
@@ -426,6 +429,7 @@
             width: 200px;
             margin-top: 10px;
         }
+    
 
     }
 
