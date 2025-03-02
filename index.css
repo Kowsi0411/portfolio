@@ -72,7 +72,7 @@ nav ul a:hover {
     justify-content: space-around;
     align-items: center;
     /* flex-direction: column; */
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 80px;
     /* text-align: center; */
     background: linear-gradient(360deg, #d2d2f4, #eec8ee);
@@ -125,6 +125,7 @@ nav ul a:hover {
 
 /* About Section */
 .contact-page {
+    min-height: 100vh;
     width: 100%;
     background: linear-gradient(90deg, #d2d2f4, #eec8ee);
     padding: 40px 10px;
@@ -143,7 +144,7 @@ nav ul a:hover {
     display: flex;
     /* align-items: center; */
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     margin-top: 40px;
 }
@@ -177,9 +178,10 @@ nav ul a:hover {
     box-shadow: 0 0 5px 5px rgb(171, 171, 228) ;
 }
 .skill-page {
-    height: auto;
+    min-height: 100vh;
     width: 100%;
     background: linear-gradient(90deg, #d2d2f4, #eec8ee);
+    /* background-color: red; */
     padding-top: 70px;
     padding-bottom: 50px;
     text-align: center;
@@ -221,7 +223,6 @@ nav ul a:hover {
     background-repeat: no-repeat;
     /* margin-top: 30px; */
     box-shadow: 0 0 20px 5px rgb(129, 129, 212) ;
-    /* margin-left: 100px; */
 
     
 }
@@ -261,22 +262,26 @@ nav ul a:hover {
     /* Responsive Navbar */
     .nav-bar {
         position: absolute;
-        top: 60px;
+        top: 50px;
         left: 0;
         width: 100%;
-        height: 100vh;
+        min-height: 100vh;
         background: linear-gradient(360deg, #ea9fea, #9999f3);
         flex-direction: column;
         align-items: center;
         justify-content: center;
         display: none;
         transition: 0.5s ease-in-out;
+        /* gap: -50px; */
+        /* padding: 30px 0; */
+        /* margin-top: -50px; */
     }
 
     .nav-bar a {
         font-size: 18px;
         padding: 10px;
         display: block;
+        /* margin-top: -30px; */
     }
 
     .menu-bar {
@@ -413,8 +418,8 @@ nav ul a:hover {
         font-size: 24px;
         text-align: center;
     }
-     .home-page{
-        height:100vh;
+     .home-page,.contact-page,.skill-page{
+        min-height:100vh;
      }
     .img-1 {
         height: 150px;
