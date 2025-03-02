@@ -241,10 +241,27 @@ nav ul a:hover {
 
 
 /* Responsive Design */
+@media(max-width:2560px){
+    .contact-page,.skill-page{
+        min-height: 100vh;
+        padding-top: 300px;
+    }
+
+
+}
 @media (max-width: 1024px) {
-    .home-page {
+    .home-page{
         padding-top:-100px;
         height: fit-content;
+    }
+    .contact-page,.skill-page{
+        height: fit-content;
+    }
+    .con-page{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
 
     .con-1 {
@@ -409,6 +426,9 @@ nav ul a:hover {
         width: 200px;
         margin-top: 10px;
     }
+    .home-page,.contact-page,.skill-page{
+        min-height:fit-content;
+     }
 
 }
 
@@ -418,9 +438,7 @@ nav ul a:hover {
         font-size: 24px;
         text-align: center;
     }
-     .home-page,.contact-page,.skill-page{
-        min-height:auto;
-     }
+     
     .img-1 {
         height: 150px;
         width: 150px;
