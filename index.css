@@ -426,10 +426,7 @@ nav ul a:hover {
         width: 200px;
         margin-top: 10px;
     }
-    .home-page,.contact-page,.skill-page{
-        min-height:50vh;
-     }
-
+  
 }
 
 /* Fully Responsive for 320px */
