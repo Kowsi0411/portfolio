@@ -243,8 +243,8 @@ nav ul a:hover {
 /* Responsive Design */
 @media(max-width:2560px){
     .contact-page,.skill-page{
-        min-height: 50vh;
-        padding-top: 100px;
+        min-height: 100vh;
+        padding-top: 600px;
     }
 
 
