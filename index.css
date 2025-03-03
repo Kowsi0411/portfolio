@@ -599,7 +599,7 @@
         .footer p{
             text-align: center;
             font-size: 15px;
-            padding-top: 15px;
+            padding-top: 5px;
             }
             .footer-icon{
                 height: auto;
@@ -607,7 +607,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                padding: 10px;
+                padding: 5px;
                 gap: 25px;
                 font-size: 15px;
             }
