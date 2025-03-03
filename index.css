@@ -288,6 +288,7 @@
     input[type="email"]{
         padding: 15px;
         width: 100%;
+        border:none;
     }
     #comment{
         width: 100%;
