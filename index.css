@@ -72,12 +72,14 @@
         justify-content: space-around;
         align-items: center;
         /* flex-direction: column; */
-        height:auto;
+        height:calc(100vh);
         padding-top: 80px;
         /* text-align: center; */
         /* background: linear-gradient(360deg, #d2d2f4, #eec8ee); */
-        background-color: blanchedalmond;
-    }
+        /* background-color: blanchedalmond; */
+        background: linear-gradient(360deg, bisque, #eec8ee);
+    
+        }
 
     /* Text Section */
     .con-1 {
@@ -129,7 +131,9 @@
         min-height: auto;
         width: 100%;
         /* background: linear-gradient(90deg, #d2d2f4, #eec8ee); */
-        background-color: yellowgreen;
+        /* background-color: yellowgreen; */
+        background: linear-gradient(90deg, bisque, #eec8ee);
+
         padding: 40px 10px;
     }
 
@@ -149,6 +153,7 @@
         justify-content: space-around;
         width: 100%;
         margin-top: 40px;
+        gap: 10px;
     }
 
     .con-2 {
@@ -172,19 +177,21 @@
     /* Image Styling */
     .img-2 {
         height: 300px;
-        width: 244px;
+        width: 300px;
         background: url(kowsi6.jpeg);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         margin-bottom: 20px;
         box-shadow: 0 0 5px 5px rgb(171, 171, 228) ;
     }
     .skill-page {
         height: auto;
         width: 100%;
-        background: linear-gradient(90deg, #d2d2f4, #eec8ee);
+        /* background: linear-gradient(90deg, #d2d2f4, #eec8ee); */
+        background: linear-gradient(280deg, bisque, #eec8ee);
+
         /* background-color: red; */
-        padding-top: 70px;
+        padding-top: 0px;
         padding-bottom: 50px;
         text-align: center;
     }
@@ -193,8 +200,6 @@
         font-size: 34px;
         color:#7878e8;
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-        margin-bottom: 20px;
-        margin-top: -30px;
         font-weight: bolder;
     }
     .course {
@@ -240,7 +245,68 @@
         color: rgb(84, 84, 231);
         margin-left: 15px;
     }
+    .address-page{
+        height: auto;
+        width: 100%;
+        background: linear-gradient(190deg, bisque, #eec8ee,pink);
 
+        /* background-color:#a5a5f8; */
+        /* padding-bottom: 30px; */
+    }
+    .address-page h3{
+        text-align: center;
+        padding-top: 30px;
+        text-align: center;
+        font-size: 34px;
+        color:#7878e8;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        margin-bottom: 30px;
+        /* margin-top: -30px; */
+        font-weight: bolder;
+   
+    }
+    .address{
+        /* border: 1px solid; */
+        height: auto;
+        width: 600px;
+        margin: auto;
+        /* margin-left: 30px; */
+        padding: 50px;
+        
+    }
+    input[type="text"]:focus{
+      outline-style: none;
+    }
+    input[type="email"]:focus{
+        outline-style: none;
+      }
+    input[type="text"]{
+        padding: 15px;
+        width: 100%;
+        border: none;
+    }
+    input[type="email"]{
+        padding: 15px;
+        width: 100%;
+    }
+    #comment{
+        width: 100%;
+        padding: 70px;
+    }
+    .address button{
+        padding: 10px;
+        margin-top: 30px;
+        width: 100px;
+        margin-left: 200px;
+        background-color: rgb(165, 111, 216);
+        border: none;
+        color: white;
+        font-size: 14px;
+        box-shadow: 0 0 5px 5px;
+        margin-top: 15px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
 
     /* Responsive Design */
     /* @media(max-width:2560px){
@@ -346,7 +412,7 @@
         }
         .skill-page h3{
             font-size: 24px;
-            margin-top: -50px;
+            /* margin-top: -50px; */
         }
 
         .con-2 {
@@ -372,6 +438,9 @@
         .img-3 {
             height: 250px;
             width: 250px;
+        }
+        .address-page h3{
+            font-size: 28px;
         }
     }
 
@@ -427,8 +496,35 @@
         .img-3 {
             height: 200px;
             width: 200px;
-            margin-top: 10px;
+            margin-top: 20px;
         }
+        @media (max-width: 480px) {
+            .address {
+                width: 90%; /* Ensure it adapts to screen width */
+                padding: 15px; /* Reduce padding for a better fit */
+            }
+            
+            .address button {
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                margin-top: 40px;
+            }
+            input[type="text"]{
+                padding: 5px;
+                width: 100%;
+            }
+            input[type="email"]{
+                padding: 5px;
+                width: 100%;
+            }
+            #comment{
+                width: 100%;
+                padding: 30px;
+            }
+         
+        }
+        
     
 
     }
@@ -473,5 +569,8 @@
         #con-btn {
             padding: 7px 12px;
             font-size: 13px;
+        }
+        .address-page{
+            width: 100%;
         }
     }
