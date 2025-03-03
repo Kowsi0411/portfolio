@@ -288,7 +288,6 @@
     input[type="email"]{
         padding: 15px;
         width: 100%;
-        border:none;
     }
     #comment{
         width: 100%;
@@ -311,8 +310,7 @@
     .footer{
         /* background-color: rgb(175, 175, 251); */
         background: linear-gradient(90deg, #a0a0f9, #eba5eb);
-
-
+        /* min-height: 70px; */
     }
     .footer p{
     text-align: center;
@@ -320,12 +318,12 @@
     padding-top: 20px;
     }
     .footer-icon{
-        height: auto;
-        width: 100%;
+        /* height: auto; */
+        /* width: 100%; */
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 30px;
+        padding: 20px 0;
         gap: 30px;
         font-size: 25px;
     }
@@ -597,20 +595,24 @@
         .address-page{
             width: 100%;
         }
+        .footer{
+            /* background-color: rgb(175, 175, 251); */
+            background: linear-gradient(90deg, #a0a0f9, #eba5eb);
+            height: 50px;
+        }
         .footer p{
-            text-align: center;
-            font-size: 15px;
-            padding-top: 5px;
-            }
-            .footer-icon{
-                height: auto;
-                width: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding: 5px;
-                gap: 25px;
-                font-size: 15px;
-            }
-        
-    }
+        text-align: center;
+        font-size: 15px;
+        padding-top: 5px;
+        }
+        .footer-icon{
+            /* height: auto; */
+            /* width: 100%; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0 0 0;
+            gap: 30px;
+            font-size: 16px;
+        }
+           }
