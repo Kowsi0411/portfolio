@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CODE WITH KOWSI</title>
+    <title>BPMS</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
-    <!-- Header -->
     <header>
         <div class="logo">
             <a href="#">CODE WITH KOWSI</a>
@@ -18,103 +18,97 @@
         <input type="checkbox" id="check">
         <nav>
             <ul class="nav-bar">
-                <a href="#home"><li>Home</li></a>
-                <a href="#about"><li>About</li></a>
-                <a href="#skills"><li>Skills</li></a>
-                <a href="#projects"><li>Projects</li></a>
-                <a href="#contact"><li>Contact</li></a>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>About</li>
+                </a>
+                <a href="#">
+                    <li>Skills</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
+                
             </ul>
         </nav>
         <label for="check" class="menu-bar">
             <i class="fa-solid fa-bars"></i>
         </label>
     </header>
-
-    <!-- Home Section -->
-    <section class="home-page" id="home">
-        <div class="home-content">
-            <h1>Hi, I'm <span class="span-1">Kowsalya</span></h1>
-            <p>Full Stack Developer</p>
-            <a href="#contact" class="btn">Contact Me</a>
+    <div class="home-page">
+        <div class="con-1">
+            <p> Hi,</p>
+            <p>I'm <span class="span-1">Kowsalya</span></p>
+            <p>Full Stack Developer
+            </p>
+            <button value="Contact" id="con-btn">Contact</button>
         </div>
-        <div class="home-img"></div>
-    </section>
+        <div class="img-1">
 
-    <!-- About Section -->
-    <section class="about-page" id="about">
-        <h2>ABOUT ME</h2>
-        <div class="about-content">
-            <div class="about-img"></div>
-            <div class="about-text">
-                <h3>I'm Kowsalya Karuppusamy</h3>
-                <p>Hi, I’m Kowsalya Karuppusamy, a passionate BCA graduate with a keen interest in software development and full-stack web technologies. I enjoy building projects that solve real-world problems and enhance user experiences.</p>
-                <p>Hands-on experience in Java, PHP, SQL, React, HTML, and CSS. I aim to write clean code, collaborate effectively, and continually learn new technologies to grow as a full-stack developer.</p>
-            </div>
         </div>
-    </section>
+    </div>
+    <div class="contact-page">
+        <h3>ABOUT ME</h3>
+        <div class="con-page">
+            <div class="img-2">
 
-    <!-- Skills Section -->
-    <section class="skill-page" id="skills">
-        <h2>SKILLS</h2>
-        <div class="skills">
-            <div class="skill-icons">
-                <i class="fa-brands fa-html5"><span>HTML</span></i>
-                <i class="fa-brands fa-css3-alt"><span>CSS</span></i>
-                <i class="fa-brands fa-js"><span>JavaScript</span></i>
-                <i class="fa-brands fa-java"><span>Java</span></i>
-                <i class="fa-solid fa-leaf"><span>Spring Boot</span></i>
-                <i class="fa-solid fa-database"><span>MySQL</span></i>
             </div>
-            <div class="skill-img"></div>
-        </div>
-    </section>
+            <div class="con-2">
+                <h3>I'm KowsalyaKaruppusamy</h3>
+                <p>Hi, I’m Kowsalya Karuppusamy, a passionate and motivated BCA graduate with a keen interest in software development and full-stack web technologies. I enjoy building innovative projects that solve real-world problems and enhance user experiences.
 
-    <!-- Projects Section -->
-    <section class="project-page" id="projects">
-        <h2>PROJECTS</h2>
-        <div class="projects">
-            <div class="project-card">
-                <img src="project1.jpeg" alt="Project 1">
-                <h4>Eco Impact Tracker</h4>
-                <p>A full-stack web application that tracks household eco footprint, gives suggestions, and gamifies sustainability efforts.</p>
-            </div>
-            <div class="project-card">
-                <img src="project2.jpeg" alt="Project 2">
-                <h4>Movie Ticket Booking</h4>
-                <p>A database-driven booking system using SQL, PHP, and JavaScript for managing movies, bookings, and payments.</p>
-            </div>
-            <div class="project-card">
-                <img src="project3.jpeg" alt="Project 3">
-                <h4>Student Fee Management</h4>
-                <p>Java inheritance-based application to manage student fee records and track day scholars and hostellers.</p>
+I have hands-on experience with Java, PHP, SQL, and front-end technologies like React and HTML/CSS. Through my projects, I’ve learned to write clean, efficient code and collaborate effectively in team settings.
+
+I’m always eager to learn new technologies, improve my skills, and contribute to meaningful projects. My goal is to grow as a full-stack developer and create applications that make a difference.
+                </p>
             </div>
         </div>
-    </section>
+    </div>
+   <div class="skill-page">
+    <h3>SKILLS</h3>
+    <div class="skills">
+        <div class="course">
+            <i class="fa-brands fa-html5"> <span class="lang">HTML</span></i> 
+            <i class="fa-brands fa-css3-alt"> <span class="lang">CSS</span></i>
+            <i class="fa-brands fa-js"> <span class="lang">JAVASCRIPT</span></i>
+            <i class="fa-brands fa-java"> <span class="lang">JAVA</span></i>
+            <i class="fa-solid fa-leaf"> <span class="lang">SPRINGBOOT</span></i> <!-- Spring Boot icon -->
+            <i class="fa-solid fa-database"> <span class="lang">MYSQL</span></i> <!-- MySQL icon -->
+        </div>
+        <div class="img-3">
+        </div>
+    </div>
+</div>
 
-    <!-- Contact Section -->
-    <section class="contact-page" id="contact">
-        <h2>CONTACT ME</h2>
-        <div class="contact-form">
+    <div class="address-page">
+        <h3>CONTACT ME</h3>
+        <div class="address">
             <form>
-                <input type="text" placeholder="First Name" required>
-                <input type="text" placeholder="Last Name" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Your Message" rows="6" required></textarea>
-                <button type="submit">Send</button>
+                <label >First Name</label><br>
+                <input type="text" placeholder="Enter your first name "><br><br>
+                <label>Last Name</label><br>
+                <input type="text" placeholder="Enter your last name"><br><br>
+                <label >Email Address</label><br>
+                <input type="email" placeholder="Enter your Email "><br><br>
+                <label>Comments/Description</label><br>
+                <input type="text" id="comment"><br>
+                <button value="send">Send</button>
             </form>
         </div>
-    </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Kowsalya Karuppusamy</p>
-        <div class="footer-icons">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-whatsapp"></i>
+    </div>
+    <div class="footer">
+        <p>Kowsalya</p>
+        <div class="footer-icon">
+        <i class="fa-brands fa-facebook" class="icon"></i>
+        <i class="fa-brands fa-instagram" class="icon"></i>
+        <i class="fa-brands fa-twitter" class="icon"></i>
+        <i class="fa-brands fa-whatsapp" class="icon"></i>
         </div>
-    </footer>
+    </div>
 
 </body>
+
 </html>
